@@ -1,0 +1,40 @@
+body{
+    background-image: url(./lion.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.left{
+    position: relative;
+    border: 1px solid black;
+    display: inline-block;
+    width: 23%;
+    margin: 2px;
+
+
+}
+.mid{
+    border: 1px solid rgb(221, 23, 23);
+    width: 45%;
+    display: inline-block;
+
+}
+.right{
+    border: 1px solid rgb(63, 178, 103);
+    width: 23%;
+    display: inline-block;
+
+}
+
+img{
+    /* display: inline-block; */
+    width: 75%;
+    height: 23%;
+    text-align: center;
+
+}
+h3{
+    color: white;
+    text-transform: uppercase;
+}

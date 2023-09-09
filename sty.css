@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'josefin', sans-serif;
+
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),url(./lion.webp));
+    background-position: center;
+    background-size: cover;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo{
+    color: lightgrey;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+nav ul li {
+list-style-type: none;
+display: inline-block;
+padding: 10px 20px;
+
+
+}
+nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: lightgrey;
+    margin: 15px 30px;
+
+}
+nav ul li a:hover{
+    color: black;
+    transition: all .3s;
+}
+button{
+    border: none;
+    background: #ea1536 ;
+    padding: 12px, 30px;
+    /* margin: 10px 20px; */
+    /* width: 10px 20px; */
+    border-radius: 30px;
+    color:lightgray ;
+    /* font-weight: bold; */
+    font-size: 15px;
+    transition: .4s;
+    /* display: inline-blocks; */
+}
+button:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+     
+}
